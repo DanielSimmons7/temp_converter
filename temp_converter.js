@@ -4,7 +4,7 @@ function convertToCelsius(fahrenheit){
 }
 
 function createMessage(fahrenheit, celsius){
-    return `The temperature is ${fahrenheit} degrees Fahrenheit. This is ${celsius} degrees Celsius.`;
+    return `The temperature is ${fahrenheit}°F. This is ${celsius}°C.`;
 }
 
 const inputFahrenheit = window.prompt('What is the temperature in Fahrenheit?');
